@@ -90,3 +90,9 @@ print(nome[::-1])
 # Substituição: replace()
 nome = 'Geek University'
 print(nome.replace('G', 'P'))
+
+
+# Palíndromo
+texto = 'socorram me subino onibus em marrocos'
+print(texto)
+print(texto[::-1])
