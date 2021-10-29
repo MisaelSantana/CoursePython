@@ -1,5 +1,5 @@
 """
-Escopo de variáveis:
+Escopo de variáveis
 
 # Dois casos de escopo:
 # [1] Variáveis globais:

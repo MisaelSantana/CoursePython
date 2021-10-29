@@ -2,8 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\Section03 - Introduction Language Python",
-    "\\Section04 - Variables and Type Data"
+    "\\Section04 - Variables and Type Data",
+    "\\Section05 - Logical and Conditional Structures in Python",
+    "\\Section06 - Loop Structures in Python"
   ],
-  "SelectedNode": "\\Section04 - Variables and Type Data\\TypeString.py",
+  "SelectedNode": "\\Section06 - Loop Structures in Python\\LoopFor.py",
   "PreviewInSolutionExplorer": false
 }
