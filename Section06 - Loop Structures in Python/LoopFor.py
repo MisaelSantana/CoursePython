@@ -37,11 +37,6 @@ for numero in lista:
 """
 
 
-nome = 'Geek University'
-lista = [1, 2, 3, 4, 5]
-numeros = (1, 10)
-
-
 for numero in range(1, 10):
     print(numero)
 
@@ -49,3 +44,47 @@ for numero in range(1, 10):
 # Enumerate:
 for indice, letra in enumerate(nome):
     print(nome[indice])
+
+
+for indice, letra in enumerate(nome):
+    print(letra)
+
+
+# Quando não precisamos de um valor podemos descartá-lo usando o "_":
+for _, letra in enumerate(nome):
+    print(letra)
+
+
+# Ele restorna os dois valores, o indice e a letra:
+for valor in enumerate(nome):
+    print(valor)
+
+
+# Retorna apenas os valores, sem os indices:
+for valor in enumerate(nome):
+    print(valor[1])
+
+
+# Loop for
+quantidade = int(input('Quantas vezes esse loop deve rodar?'))
+soma = 0
+
+for n in range(1, quantidade):
+    num = int(input(f'Imprimindo {n}/{quantidade} valor: '))
+    soma = soma + num
+print(f'A soma é {soma}')
+
+
+# Segundo exemplo de loop for:
+nome = 'Geek University'
+
+for letra in nome:
+    print(letra, end='')
+
+
+# Unicode:
+# Original: U+1F60D
+# Modificado : U0001F60D
+
+for num in range(1, 11):
+    print(f'\U0001F60D' * num)
