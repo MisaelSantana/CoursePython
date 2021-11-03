@@ -268,3 +268,33 @@ print(d)
 print(novo)
 
 # Forma 2: -> # Shallow Copy
+novo = d
+
+print(novo)
+
+novo['d'] = 4
+
+print(d)
+print(novo)
+
+
+# Forma não usual de criação de dicionário:
+outro = {}.fromkeys('a', 'b')
+
+print(outro)
+print(type(outro))
+
+
+usuario = {}.fromkeys(['nome', 'pontos', 'email', 'profile'], 'desconhecido')
+
+print(usuario)
+print(type(usuario))
+
+# O método 'fromkeys' recebe dois parâmetr0s: um iterável e um valor.
+# Ele vai gerar para cada valor do iterável uma chave e irá atribuir a esta chave o valor informado.
+
+veja = {}.fromkeys('teste', 'valor')
+print(veja)
+
+veja = {}.fromkeys(range(1, 11), 'novo')
+print(veja)
