@@ -35,9 +35,6 @@ print(res)
 
 # Exemplo 2:
 
-# Realizando o import:
-from collections import Counter
-
 print(Counter('Geek University'))
 
 # Para cada caractere, cria-se uma chave onde o valor é o número de ocorrências:
@@ -46,9 +43,6 @@ print(Counter('Geek University'))
 
 
 # Exemplo 3:
-
-# Realizando o import:
-from collections import Counter
 
 texto = """A Wikipédia é um projeto de enciclopédia colaborativa, universal e multilíngue 
 estabelecido na internet sob o princípio wiki. Tem como propósito fornecer um conteúdo livre, 
