@@ -136,3 +136,70 @@ novo.add(4)
 
 print(novo)
 print(s)
+
+# Forma 2: -> # Shallow Copy
+s = {1, 2, 3}
+
+novo = s
+print(novo)
+
+novo.add(4)
+
+print(novo)
+print(s)
+
+
+# Podemos remover todos os itens de um conjunto:
+s = {1, 2, 3}
+print(s)
+
+s.clear()
+print(s)
+
+
+# Métodos matemáticos de Conjuntos:
+
+# Imagine que temos dois conjuntos:
+# -> Estudantes do curso de Python;
+# -> Estudantes do curso de Python;
+
+estudantes_python ={'Marcos', 'Patrícia', 'Ellen', 'Pedro', 'Julia', 'Guilherme',}
+estudantes_java ={'Fernando', 'Gustavo', 'Julia', 'Ana', 'Patrícia',}
+
+# Veja que alguns alunos que estudam Python também estudam Java.
+# Precisamos gerar um conjunto com nomes de estudantes únicos:
+
+# Forma 1: -> # Utilizando union:
+unicos1 = estudantes_python.union(estudantes_java)
+print(unicos1)
+
+# Forma 2: -> # Utilizando o caractere pipe '|':
+unicos2 = estudantes_python | estudantes_java
+print(unicos2)
+
+# Gerar um conjunto de estudantes que estão em ambos os cursos:
+
+# Forma 1: -> # Utilizando 'intersection':
+ambos1 = estudantes_python.intersection(estudantes_java)
+print(ambos1)
+
+# Forma 2: -> # Utilizando o '&':
+ambos2 = estudantes_python & estudantes_java
+print(ambos2)
+
+# Gerar um conjunto de estudantes que não estão em outro curso.
+so_python = estudantes_python.difference(estudantes_java)
+print(so_python)
+
+so_java = estudantes_java.difference(estudantes_python)
+print(so_java)
+
+
+# Soma*, Valor Máximo*, Valor Mímino*, Tamanho:
+# * Se os valores forem todos inteiros ou reais
+s = {1, 2 , 3, 4, 5, 6}
+
+print(sum(s))
+print(max(s))
+print(min(s))
+print(len(s))
