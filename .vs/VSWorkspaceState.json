@@ -6,8 +6,9 @@
     "\\Section05 - Logical and Conditional Structures in Python",
     "\\Section06 - Loop Structures in Python",
     "\\Section07 - Python Collections",
-    "\\Section08 - Functions in Python"
+    "\\Section08 - Functions in Python",
+    "\\Section09 - ComprehensionsInPython"
   ],
-  "SelectedNode": "\\Section08 - Functions in Python\\FunctionWithParameter.py",
+  "SelectedNode": "\\Section09 - ComprehensionsInPython\\DictionaryComprehension.py",
   "PreviewInSolutionExplorer": false
 }
