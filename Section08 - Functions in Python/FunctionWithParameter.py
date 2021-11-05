@@ -103,3 +103,19 @@ sobrenome = 'Lemos Negri'
 print(nome_completo(nome='Misael', sobrenome='Santana'))
 print(nome_completo(nome=nome, sobrenome=sobrenome))
 print(nome_completo(sobrenome='Santana', nome='Misael'))
+
+
+# Erro comum na utilização do return:
+
+def soma_impares(numeros):
+    total = 0
+    for num in numeros:
+        if num % 2 != 0:
+            total = total + num
+        return total
+
+lista = [1, 2, 3, 4, 5, 6, 7]
+print(soma_impares(lista))
+
+tupla = (1, 2, 3, 4, 5, 6, 7)
+print(soma_impares(tupla))
