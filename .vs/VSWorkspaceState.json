@@ -8,8 +8,9 @@
     "\\Section07 - Python Collections",
     "\\Section08 - Functions in Python",
     "\\Section09 - ComprehensionsInPython",
-    "\\Section10 - ExpressionLambdasAndFunctionsIntegrate"
+    "\\Section10 - ExpressionLambdasAndFunctionsIntegrate",
+    "\\Section11 - DebuggingAndHandlingErrors"
   ],
-  "SelectedNode": "\\Section10 - ExpressionLambdasAndFunctionsIntegrate\\ExpressionLambdas.py",
+  "SelectedNode": "\\Section11 - DebuggingAndHandlingErrors\\MostCommonErrorsInPython.py",
   "PreviewInSolutionExplorer": false
 }
