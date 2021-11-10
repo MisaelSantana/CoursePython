@@ -1,16 +1,14 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Section03 - Introduction Language Python",
-    "\\Section04 - Variables and Type Data",
-    "\\Section05 - Logical and Conditional Structures in Python",
     "\\Section06 - Loop Structures in Python",
     "\\Section07 - Python Collections",
     "\\Section08 - Functions in Python",
     "\\Section09 - ComprehensionsInPython",
     "\\Section10 - ExpressionLambdasAndFunctionsIntegrate",
-    "\\Section11 - DebuggingAndHandlingErrors"
+    "\\Section11 - DebuggingAndHandlingErrors",
+    "\\Section12 - WorkingWithModelsAndPackedsInPython",
+    "\\Section12 - WorkingWithModelsAndPackedsInPython\\Geek_old"
   ],
-  "SelectedNode": "\\Section11 - DebuggingAndHandlingErrors\\MostCommonErrorsInPython.py",
   "PreviewInSolutionExplorer": false
 }
