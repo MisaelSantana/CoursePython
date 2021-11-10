@@ -6,7 +6,7 @@
     <ProjectGuid>{4a5ff1da-ef2d-4801-bed9-0c8147634eeb}</ProjectGuid>
     <ProjectHome />
     <StartupFile>${file}</StartupFile>
-    <SearchPath>Section12 - WorkingWithModelsAndPackedsInPython</SearchPath>
+    <SearchPath>Section12 - WorkingWithModelsAndPackedsInPython;Section08 - Functions in Python;Section13 - ReadAndWriteFiles</SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
@@ -74,17 +74,24 @@
     <Compile Include="Section11 - DebuggingAndHandlingErrors\TryExceptElseFinally.py" />
     <Compile Include="Section12 - WorkingWithModelsAndPackedsInPython\Built-InModel.py" />
     <Compile Include="Section12 - WorkingWithModelsAndPackedsInPython\CustomModel.py" />
+    <Compile Include="Section12 - WorkingWithModelsAndPackedsInPython\DunderMainDunderName.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Section12 - WorkingWithModelsAndPackedsInPython\ExternalModules.py" />
     <Compile Include="Section12 - WorkingWithModelsAndPackedsInPython\Geek\geek1.py" />
     <Compile Include="Section12 - WorkingWithModelsAndPackedsInPython\Geek\geek2.py" />
-    <Compile Include="Section12 - WorkingWithModelsAndPackedsInPython\Geek\university\geek3.py" />
-    <Compile Include="Section12 - WorkingWithModelsAndPackedsInPython\Geek\university\geek4.py" />
-    <Compile Include="Section12 - WorkingWithModelsAndPackedsInPython\Geek\university\__init__.py" />
+    <Compile Include="Section12 - WorkingWithModelsAndPackedsInPython\Geek\University\geek3.py" />
+    <Compile Include="Section12 - WorkingWithModelsAndPackedsInPython\Geek\University\geek4.py" />
+    <Compile Include="Section12 - WorkingWithModelsAndPackedsInPython\Geek\University\__init__.py" />
     <Compile Include="Section12 - WorkingWithModelsAndPackedsInPython\Geek\__init__.py" />
     <Compile Include="Section12 - WorkingWithModelsAndPackedsInPython\Packed.py" />
     <Compile Include="Section12 - WorkingWithModelsAndPackedsInPython\RandomModel.py" />
+    <Compile Include="Section13 - ReadAndWriteFiles\ReadFiles.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Section13 - ReadAndWriteFiles\" />
     <Folder Include="Section03 - Introduction Language Python" />
     <Folder Include="Section04 - Variables and Type Data" />
     <Folder Include="Section05 - Logical and Conditional Structures in Python" />
@@ -96,7 +103,7 @@
     <Folder Include="Section11 - DebuggingAndHandlingErrors" />
     <Folder Include="Section12 - WorkingWithModelsAndPackedsInPython" />
     <Folder Include="Section12 - WorkingWithModelsAndPackedsInPython\Geek\" />
-    <Folder Include="Section12 - WorkingWithModelsAndPackedsInPython\Geek\university\" />
+    <Folder Include="Section12 - WorkingWithModelsAndPackedsInPython\Geek\University\" />
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="env\">
@@ -108,6 +115,9 @@
       <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
       <Architecture>X64</Architecture>
     </Interpreter>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Section13 - ReadAndWriteFiles\texto.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
 </Project>
