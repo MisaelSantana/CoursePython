@@ -94,8 +94,14 @@
     <Compile Include="Section14 - Iterators And Generators In Python\CreateLoops.py" />
     <Compile Include="Section14 - Iterators And Generators In Python\Generators.py" />
     <Compile Include="Section14 - Iterators And Generators In Python\IteratorCustom.py" />
-    <Compile Include="Section14 - Iterators And Generators In Python\TesteMemoryGenerators.py" />
+    <Compile Include="Section14 - Iterators And Generators In Python\TestMemoryGenerators.py" />
+    <Compile Include="Section14 - Iterators And Generators In Python\TestVelocityWithExpresionGenerators.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Section14 - Iterators And Generators In Python\UnderstandingIteratorsAndIterables.py" />
+    <Compile Include="Section15 - DecoratorsInPython\HigherOrderFunctions.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Section13 - Read And Write Files\arquivo-teste.txt" />
@@ -104,6 +110,7 @@
     <Content Include="Section13 - Read And Write Files\university.txt" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Section15 - DecoratorsInPython\" />
     <Folder Include="Section03 - Introduction Language Python" />
     <Folder Include="Section04 - Variables and Type Data" />
     <Folder Include="Section05 - Logical and Conditional Structures in Python" />
