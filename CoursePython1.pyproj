@@ -99,7 +99,16 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Section14 - Iterators And Generators In Python\UnderstandingIteratorsAndIterables.py" />
+    <Compile Include="Section15 - DecoratorsInPython\Decorators.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Section15 - DecoratorsInPython\DecoratorsWithDifferentsAssignature.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Section15 - DecoratorsInPython\HigherOrderFunctions.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Section15 - DecoratorsInPython\PreservingMetadataWithWraps.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
