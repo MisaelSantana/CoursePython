@@ -12,6 +12,7 @@
     <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
     <LaunchProvider>Standard Python launcher</LaunchProvider>
     <InterpreterId>Global|PythonCore|3.7</InterpreterId>
+    <TestFramework>Pytest</TestFramework>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
   <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
@@ -105,10 +106,25 @@
     <Compile Include="Section15 - DecoratorsInPython\DecoratorsWithDifferentsAssignature.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Section15 - DecoratorsInPython\ForceTypeDataWithDecorators.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Section15 - DecoratorsInPython\HigherOrderFunctions.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Section15 - DecoratorsInPython\PreservingMetadataWithWraps.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Section16 - ObjectOrientationWithPython\Attributes.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Section16 - ObjectOrientationWithPython\Class.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Section16 - ObjectOrientationWithPython\Methods.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Section16 - ObjectOrientationWithPython\ObjectOrientation.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
@@ -119,6 +135,7 @@
     <Content Include="Section13 - Read And Write Files\university.txt" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Section16 - ObjectOrientationWithPython\" />
     <Folder Include="Section15 - DecoratorsInPython\" />
     <Folder Include="Section03 - Introduction Language Python" />
     <Folder Include="Section04 - Variables and Type Data" />
