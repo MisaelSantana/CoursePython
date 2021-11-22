@@ -136,6 +136,12 @@
     <Compile Include="Section17 - InheritanceAndPolymorphism\Inheritance.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Section17 - InheritanceAndPolymorphism\SuperMethod.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Section17 - InheritanceAndPolymorphism\Property.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Section13 - Read And Write Files\arquivo-teste.txt" />
