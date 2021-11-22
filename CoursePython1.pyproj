@@ -115,6 +115,9 @@
     <Compile Include="Section15 - DecoratorsInPython\PreservingMetadataWithWraps.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Section16 - ObjectOrientationWithPython\AbstractionAndEncapsulation.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Section16 - ObjectOrientationWithPython\Attributes.py">
       <SubType>Code</SubType>
     </Compile>
@@ -127,6 +130,12 @@
     <Compile Include="Section16 - ObjectOrientationWithPython\ObjectOrientation.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Section16 - ObjectOrientationWithPython\Objects.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Section17 - InheritanceAndPolymorphism\Inheritance.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Section13 - Read And Write Files\arquivo-teste.txt" />
@@ -135,6 +144,7 @@
     <Content Include="Section13 - Read And Write Files\university.txt" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Section17 - InheritanceAndPolymorphism\" />
     <Folder Include="Section16 - ObjectOrientationWithPython\" />
     <Folder Include="Section15 - DecoratorsInPython\" />
     <Folder Include="Section03 - Introduction Language Python" />
