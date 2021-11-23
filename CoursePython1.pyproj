@@ -136,6 +136,18 @@
     <Compile Include="Section17 - InheritanceAndPolymorphism\Inheritance.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Section17 - InheritanceAndPolymorphism\MagicMethods.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Section17 - InheritanceAndPolymorphism\MethodResolutionOrder.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Section17 - InheritanceAndPolymorphism\MultipleInheritance.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Section17 - InheritanceAndPolymorphism\Polymorphism.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Section17 - InheritanceAndPolymorphism\SuperMethod.py">
       <SubType>Code</SubType>
     </Compile>
