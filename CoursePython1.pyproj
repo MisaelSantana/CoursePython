@@ -154,14 +154,32 @@
     <Compile Include="Section17 - InheritanceAndPolymorphism\Property.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Section18 - ManipulatingCSVAndJsonFiles\KnowingPickle.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Section18 - ManipulatingCSVAndJsonFiles\ReadingFilesCSV.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Section18 - ManipulatingCSVAndJsonFiles\WorkingWithJsonAndPickle.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Section18 - ManipulatingCSVAndJsonFiles\WritingFilesCSV.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Section13 - Read And Write Files\arquivo-teste.txt" />
     <Content Include="Section13 - Read And Write Files\EntradasUsuario.txt" />
     <Content Include="Section13 - Read And Write Files\texto.txt" />
     <Content Include="Section13 - Read And Write Files\university.txt" />
+    <Content Include="Section18 - ManipulatingCSVAndJsonFiles\animais.pickle" />
+    <Content Include="Section18 - ManipulatingCSVAndJsonFiles\Felix.json" />
+    <Content Include="Section18 - ManipulatingCSVAndJsonFiles\FilmesDictWriter.csv" />
+    <Content Include="Section18 - ManipulatingCSVAndJsonFiles\FilmesWriter.csv" />
+    <Content Include="Section18 - ManipulatingCSVAndJsonFiles\Lutadores.csv" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Section18 - ManipulatingCSVAndJsonFiles\" />
     <Folder Include="Section17 - InheritanceAndPolymorphism\" />
     <Folder Include="Section16 - ObjectOrientationWithPython\" />
     <Folder Include="Section15 - DecoratorsInPython\" />
